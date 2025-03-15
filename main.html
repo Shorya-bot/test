@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volleyball 101</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #008CBA;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background color 0.3s ease, color 0.3s ease;
+            transition-duration: 200ms;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            max-width: 1200px
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+            font-size: 14px;
+        }
+        .position-details {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .position {
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .position:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .position img {
+            max-width: 1005;
+            border-radius: 5px;
+            width:300px;
+            height:auto;
+        }
+        .position h3 {
+            text-align: center;
+            color: #008CBA;
+            margin: 10px 0;
+        }
+        .position p {
+            text-align: center;
+            color: #555;
+        }
+        @media (max-width: 786px) {
+            nav {
+                flex-direction: column;
+            }
+            .position details {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <h1>Welcome to Volleyball 101</h1>
+    <p>Learn the basics, rules, and tips to become a volleyball pro!</p>
+</header>
+ 
+<nav>
+    <a href="#basics">The Basics</a>
+    <a href="#rules">Rules</a>
+    <a href="#tips">Tips</a>
+    <a href="#positions">Positions</a>
+    <a href="#video-tutorials">Video Tutorials</a>
+</nav>
+ 
+<section id="basics">
+    <h2>The Basics of Volleyball</h2>
+    <p>Volleyball is a team sport in which two teams of six players each are separated by a net. The objective is to send the ball over the net into the opponent’s court to score points, while preventing the ball from going out of bounds or into your own court.</p>
+    <ul>
+        <li>Each team has six players: three in the front row and three in the back row.</li>
+        <li>The game is typically played on a rectangular court that measures 18m x 9m.</li>
+        <li>Players use their hands or arms to hit the ball over the net, and the ball is allowed to touch the ground inside the boundaries of the court.</li>
+    </ul>
+</section>
+
+<section id="rules">
+    <h2>Volleyball Rules</h2>
+    <h3>Scoring System</h3>
+    <p>Volleyball uses a rally point system, meaning points can be scored by either team, regardless of which team served.</p>
+    <h3>Basic Rules</h3>
+    <ul>
+        <li>Each team has three hits to return the ball over the net.</li>
+        <li>Players cannot touch the net during play.</li>
+        <li>A player is not allowed to hit the ball twice consecutively.</li>
+        <li>The ball must be served from behind the back line.</li>
+    </ul>
+</section>
+ 
+<section id="tips">
+    <h2>Volleyball Tips</h2>
+    <h3>For Beginners</h3>
+    <ul>
+        <li>Practice your passing and serving techniques regularly.</li>
+        <li>Always keep your eyes on the ball and anticipate the opponent’s moves.</li>
+        <li>Work on your communication skills with teammates during the game.</li>
+    </ul>
+    <h3>For Advanced Players</h3>
+    <ul>
+        <li>Master the art of positioning and reading the game for effective defense.</li>
+        <li>Enhance your timing for jumping and blocking at the net.</li>
+        <li>Work on your ability to deliver powerful and accurate serves.</li>
+    </ul>
+</section>
+
+<section id="positions">
+    <h2>Volleyball Positions and Responsibilities</h2>
+    <div class="position-details">
+        <div class="position">
+            <h3>Opposite Hitter</h3>
+            <img src="https://lh4.googleusercontent.com/proxy/Q9bXMfuXdqkfLnV5QZRXeaPIfu3zxeUkVe9abDBU-JrqxkvoEaABk143qrIaIvhJNcTb64o5sSq5GKZSH-7QDuAJJWz7r3HxIGm1h8MpjgeUOJtQSEugNzIBAFvS4nqJwtjMh0mXuZXJmMhYEnMZVwfz" alt="Opposite Hitter">
+            <p>Key offensive player who attacks from the right side of the court. Plays both offense and defense, and can also help in setting plays when needed.</p>
+        </div>
+        <div class="position">
+            <h3>Outside Hitter</h3>
+            <img src="" alt="Outside Hitter">
+            <p>Plays both in the front and back row. Primary attacker, responsible for passing, hitting, and blocking. Often the go-to hitter for the team.</p>
+        </div>
+        <div class="position">
+            <h3>Setter</h3>
+            <img src="" alt="Setter">
+            <p>Set up the ball for attacking players. The setter's job is to deliver accurate sets, often the leader of the offense.</p>
+        </div>
+        <div class="position">
+            <h3>Middle Blocker</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1SbLFrrmpTmCq1hJHq-su094FRp0Bixz8xw&s" alt="Middle Blocker">
+            <p>Plays near the net and focuses on blocking the opponent’s attacks. Also a key player in quick offense plays like fast middle hits.</p>
+        </div>
+        <div class="position">
+            <h3>Libero</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTydu0q3vnGhVELIhnObzS_OdQiKcLXQpkmMg&s" alt="Libero">
+            <p>Specialized in passing, receiving serves, and playing defense. Libero cannot attack the ball above the net.</p>
+        </div>
+        <div class="position">
+            <h3>Defensive Specialist</h3>
+            <img src="" alt="Defensive Specialist">
+            <p>Focuses on receiving serves and playing defense. Often comes in as a substitute for a front-row player to strengthen the defense.</p>
+        </div>
+    </div>
+</section>
+
+<section id="video-tutorials">
+    <h2>Video Tutorials</h2>
+    <p>Watch expert tutorials to improve your volleyball skills.</p>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MZHeo4vxWek?si=Ngzg0mlccRhvw3Lu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+ 
+<footer>
+    <p>&copy; 2025 Volleyball 101 | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
